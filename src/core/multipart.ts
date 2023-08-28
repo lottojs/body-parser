@@ -75,9 +75,9 @@ export class Multipart {
         lineContent: string,
         multipartElement: MultipartContent,
     ) {
-        if (lineContent.indexOf(CONTENT_TYPE) != -1) {
+        if (lineContent.indexOf(CONTENT_TYPE) !== -1) {
             multipartElement.contentType = lineContent.split(':')[1].trim()
-        } else if (lineContent.indexOf(CONTENT_DISPOSITION) != -1) {
+        } else if (lineContent.indexOf(CONTENT_DISPOSITION) !== -1) {
             const nameContent = lineContent.split('=')[1]
             multipartElement.name = nameContent.substring(
                 1,

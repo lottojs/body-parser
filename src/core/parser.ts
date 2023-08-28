@@ -28,10 +28,11 @@ export class Parser implements AbstractParser {
             const stringeredBuffer = buffer.toString()
 
             if (type.startsWith('application/x-www-form-urlencoded')) {
-                const { entries } = new URLSearchParams(stringeredBuffer)
+                const params = new URLSearchParams(stringeredBuffer)
+                const entries = params.entries();
 
                 const body: Record<string, any> = {}
-                for (const [key, value] of entries()) body[key] = value
+                for (const [key, value] of entries) body[key] = value
 
                 req.body = body
             }
