@@ -1,6 +1,6 @@
 {
   "name": "@lottojs/body-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS HTTP Request body parser",
   "author": "Pedro Harbs <harbspj@gmail.com>",
   "license": "MIT",

@@ -29,7 +29,7 @@ export class Parser implements AbstractParser {
 
             if (type.startsWith('application/x-www-form-urlencoded')) {
                 const params = new URLSearchParams(stringeredBuffer)
-                const entries = params.entries();
+                const entries = params.entries()
 
                 const body: Record<string, any> = {}
                 for (const [key, value] of entries) body[key] = value
