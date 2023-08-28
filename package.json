@@ -1,0 +1,40 @@
+{
+  "name": "@lottojs/body-parser",
+  "version": "0.1.0",
+  "description": "NodeJS HTTP Request body parser",
+  "author": "Pedro Harbs <harbspj@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "nodejs",
+    "http",
+    "body-parser",
+    "typescript",
+    "lottojs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lottojs/body-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lottojs/body-parser/issues"
+  },
+  "homepage": "https://github.com/lottojs/body-parser#readme",
+  "scripts": {
+    "build": "tsc && tscpaths -p ./tsconfig.json -s src -o lib",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@lottojs/eslint-config": "^0.1.0",
+    "@lottojs/ts-config": "^0.1.0",
+    "eslint": "^8.48.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^5.1.6"
+  }
+}
