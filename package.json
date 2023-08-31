@@ -1,6 +1,6 @@
 {
   "name": "@lottojs/body-parser",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "NodeJS HTTP Request body parser",
   "author": "Pedro Harbs <harbspj@gmail.com>",
   "license": "MIT",
@@ -29,8 +29,8 @@
     "lint": "eslint src --ext .ts --fix"
   },
   "devDependencies": {
-    "@lottojs/eslint-config": "^0.1.0",
-    "@lottojs/ts-config": "^0.1.0",
+    "@lottojs/eslint-config": "^0.2.0",
+    "@lottojs/ts-config": "^0.2.0",
     "eslint": "^8.48.0",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
