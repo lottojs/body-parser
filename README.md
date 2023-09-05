@@ -40,8 +40,9 @@ Supported Content-Types:
 - [x] JSON (application/json).
 - [x] Text (text/plain).
 
+## Documentation
+Complete API documentation is available at [lottojs.tech][documentation-url].
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Installation
@@ -66,6 +67,18 @@ It will depend on your scenario, basically the package exports a middleware call
     )
 ```
 
+## Contributing
+
+All forms of contributions are more than welcome! You can contribute in the following ways:
+
+- Create an Issue
+- Create a Pull Request
+- Create third-party middlewares
+- Share with your friends
+- Make your application with `Lotto`.
+
+For more details, see [Contribution Guide](./CONTRIBUTING.md).
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -85,3 +98,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://github.com/lottojs/body-parser/blob/master/LICENSE.txt
 [npm-shield]: https://img.shields.io/npm/v/@lottojs/body-parser?style=for-the-badge&logo=npm&logoColor=FFFFFF&labelColor=555555&color=CB0001
 [npm-url]: https://www.npmjs.com/package/@lottojs/body-parser
+[documentation-url]: https://lottojs.tech
