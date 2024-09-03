@@ -85,7 +85,10 @@ export class Parser implements AbstractParser {
                 req.body = stringeredBuffer
             }
 
-            if (type.startsWith('application/xml')) {
+            if (
+                type.startsWith('application/xml') ||
+                type.startsWith('text/xml')
+            ) {
                 req.body = stringeredBuffer
             }
 
